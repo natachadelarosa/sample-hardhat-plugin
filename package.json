@@ -2,7 +2,7 @@
   "name": "tally-publish-dao",
   "version": "0.0.1",
   "description": "Hardhat plugin to publish DAO on Tally",
-  "repository": "github:natachadelarosa/tally-publish-dao",
+  "repository": "github:withtally/tally-publish-dao",
   "author": "Tally",
   "license": "MIT",
   "main": "dist/src/index.js",
