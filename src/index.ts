@@ -3,7 +3,7 @@ import { lazyObject } from "hardhat/plugins";
 import wretch from "wretch";
 
 // custom
-import { Tally } from "./tally";
+import { Tally } from "./Tally";
 
 // This import is needed to let the TypeScript compiler know that it should include your type
 // extensions in your npm package's types file.

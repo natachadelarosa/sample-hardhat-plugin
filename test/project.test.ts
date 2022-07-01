@@ -10,7 +10,7 @@ import {
 
 // custom
 import { useEnvironment, deployContract, getRandomString } from "./helpers";
-import { Tally } from "../src/tally";
+import { Tally } from "./Tally";
 
 describe("Integration tests examples", function () {
   describe("Hardhat Runtime Environment extension", function () {
