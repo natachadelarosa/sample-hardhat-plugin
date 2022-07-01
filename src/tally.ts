@@ -7,7 +7,7 @@ import { chains, TallyChainConfig } from "./ChainConfig";
 import { pluginName } from "./constants";
 import { getContractAddressStartBlock } from "./etherscan-api";
 import { registerProtocol } from "./tally-api";
-import { DaoToPublish } from "./types/tally";
+import { DaoToPublish } from "./types/tallyTypes";
 import { verifyAllowedNetworks } from "./verifyAllowedNetworks";
 
 export class Tally {

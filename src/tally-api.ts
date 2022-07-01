@@ -13,7 +13,7 @@ import {
   TokenInitialValues,
   MutationUploadArgs,
   RegisterProtocolMutation,
-} from "./types/tally";
+} from "./types/tallyTypes";
 
 export async function getChains() {
   // api setup
