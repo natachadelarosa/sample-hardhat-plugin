@@ -1,6 +1,6 @@
 {
   "name": "@withtally/tally-publish-dao",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hardhat plugin to publish DAO on Tally",
   "repository": "github:withtally/tally-publish-dao",
   "author": "Tally",
