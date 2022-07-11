@@ -45,8 +45,9 @@ export class Tally {
         dao.contracts.token.address,
         etherscanAPIKey
       );
-
-      if (tokenStartBlock === "error" || governorStartBlock === "error") {
+      const noGovernorStartBlock = governorStartBlock === null || governorStartBlock === undefined || governorStartBlock === ''
+      const noTokenStartBlock = tokenStartBlock === null || tokenStartBlock === undefined || tokenStartBlock === ''
+      if (noTokenStartBlock || tokenStartBlock === "error" || noGovernorStartBlock || governorStartBlock === "error") {
         throw new NomicLabsHardhatPluginError(
           pluginName,
           `There was an error getting contract start block.`
